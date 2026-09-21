@@ -1,0 +1,22 @@
+{
+  "cutoff": "2023-06-30",
+  "metric_definitions": {
+    "actual_subsidy": "交易明细 Reduce_amount 在订单内及全局求和。",
+    "auditable_pool_subsidy": "无券 ID 可追踪的补贴订单，或订单补贴不低于用户实付的订单之并集；是审计优先池，不是已证实浪费。",
+    "matured_no_transaction": "End_date 不晚于分析截止日，且 Coupon_id 未出现在交易表中的获券记录；表示无可追踪交易，不代表已证明零因果收益。",
+    "order_grain_gmv": "按 Order_id 聚合后，MAX(Actual_pay) + SUM(Reduce_amount)；仅当订单内 Actual_pay 一致性检查为 0 冲突时成立。"
+  },
+  "scenario_policy": "联系成本按外部单位成本敏感性测算；补贴节省假设审计池按给定比例削减且 GMV 不变。二者均非因果预测。",
+  "source_files": {
+    "active": "②活跃_232401619_20260123.csv",
+    "coupons": "③获券_232388348_20260123.csv",
+    "profile": "①合并画像_232375490_20260123_encrypted.csv",
+    "transactions": "④交易数据_234065457_20260126.csv"
+  },
+  "source_rows": {
+    "active": 5606759,
+    "coupons": 23129173,
+    "profile": 100000,
+    "transactions": 3152078
+  }
+}

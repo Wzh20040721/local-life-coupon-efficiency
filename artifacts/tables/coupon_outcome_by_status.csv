@@ -1,0 +1,5 @@
+status_label,issued,transaction_matched,matured_no_transaction,right_censored,match_rate_pct
+1-unused,2395972,4720,2255273,136208,0.197
+2-used,1296113,1158765,118315,90741,89.4031
+3-other,18822649,15355,18326032,481713,0.0816
+unknown,614439,15241,585464,14675,2.4805

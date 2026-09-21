@@ -1,0 +1,20 @@
+.DS_Store
+.venv/
+.superpowers/
+.baa_cache/
+.idea/
+.zhixi/
+__pycache__/
+*.py[cod]
+*.duckdb
+*.duckdb.wal
+artifacts/full_run_stdout.json
+
+# Raw competition data stays local; GitHub cannot and should not store multi-GB CSVs.
+①合并画像_232375490_20260123_encrypted.csv
+②活跃_232401619_20260123.csv
+③获券_232388348_20260123.csv
+④交易数据_234065457_20260126.csv
+
+# Binary source brief; the Markdown transcription is versioned instead.
+补贴-本地生活领域营销补贴效率评估及提效策略研究.pdf

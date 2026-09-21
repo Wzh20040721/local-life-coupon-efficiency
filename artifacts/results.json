@@ -1,0 +1,142 @@
+{
+  "coupon_outcomes": {
+    "coupon_rows": 23129173,
+    "matched_coupon_rows": 1194081,
+    "matured_no_transaction": 21285084,
+    "right_censored_no_transaction": 650008,
+    "status_other": 18822649,
+    "status_unknown": 614439,
+    "status_unused": 2395972,
+    "status_used": 1296113
+  },
+  "coupon_user_metrics": {
+    "avg_issued_per_user": 232.6949,
+    "avg_matched_per_user": 12.0132,
+    "coupon_users": 99397,
+    "users_with_zero_matched_coupon": 36451,
+    "zero_match_user_rate_pct": 36.6721
+  },
+  "cutoff": "2023-06-30",
+  "data_quality": {
+    "active": {
+      "active_rows": 5606759,
+      "duplicate_user_days": 0,
+      "user_days": 5606759
+    },
+    "coupons": {
+      "duplicate_coupon_rows": 37,
+      "duplicated_coupon_ids": 37,
+      "null_amount_rows": 614439,
+      "null_end_date_rows": 0,
+      "null_receive_date_rows": 569380,
+      "null_status_rows": 614439
+    },
+    "orders": {
+      "actual_pay_conflicts": 0,
+      "component_rows_above_order_grain": 1152390,
+      "multirow_orders": 1009503,
+      "order_identity_conflicts": 0
+    }
+  },
+  "order_metrics": {
+    "actual_pay": 82375971.13,
+    "actual_subsidy": 4408383.45,
+    "gmv": 86784354.58,
+    "gmv_per_subsidy": 19.6862,
+    "ordering_users": 94888,
+    "orders": 1999688,
+    "shops": 723702,
+    "subsidized_order_rate_pct": 51.7083,
+    "subsidized_orders": 1034004,
+    "subsidy_rate_pct": 5.0797
+  },
+  "scenarios": {
+    "contact_cost": [
+      {
+        "contact_cost_saving": 212850.84,
+        "gmv_per_subsidy_after": 19.686208235810337,
+        "gmv_per_subsidy_before": 19.686208235810337,
+        "pool_reduction_rate": 0.0,
+        "subsidy_after": 4408383.45,
+        "subsidy_saving": 0.0,
+        "total_cost_saving": 212850.84,
+        "unit_contact_cost": 0.01
+      },
+      {
+        "contact_cost_saving": 1064254.2,
+        "gmv_per_subsidy_after": 19.686208235810337,
+        "gmv_per_subsidy_before": 19.686208235810337,
+        "pool_reduction_rate": 0.0,
+        "subsidy_after": 4408383.45,
+        "subsidy_saving": 0.0,
+        "total_cost_saving": 1064254.2,
+        "unit_contact_cost": 0.05
+      },
+      {
+        "contact_cost_saving": 2128508.4,
+        "gmv_per_subsidy_after": 19.686208235810337,
+        "gmv_per_subsidy_before": 19.686208235810337,
+        "pool_reduction_rate": 0.0,
+        "subsidy_after": 4408383.45,
+        "subsidy_saving": 0.0,
+        "total_cost_saving": 2128508.4,
+        "unit_contact_cost": 0.1
+      }
+    ],
+    "subsidy_pool_reduction": [
+      {
+        "contact_cost_saving": 0.0,
+        "gmv_per_subsidy_after": 20.054661804990108,
+        "gmv_per_subsidy_before": 19.686208235810337,
+        "pool_reduction_rate": 0.1,
+        "subsidy_after": 4327390.58,
+        "subsidy_saving": 80992.87,
+        "total_cost_saving": 80992.87,
+        "unit_contact_cost": 0.0
+      },
+      {
+        "contact_cost_saving": 0.0,
+        "gmv_per_subsidy_after": 20.437170634212688,
+        "gmv_per_subsidy_before": 19.686208235810337,
+        "pool_reduction_rate": 0.2,
+        "subsidy_after": 4246397.71,
+        "subsidy_saving": 161985.74,
+        "total_cost_saving": 161985.74,
+        "unit_contact_cost": 0.0
+      },
+      {
+        "contact_cost_saving": 0.0,
+        "gmv_per_subsidy_after": 20.834554602380496,
+        "gmv_per_subsidy_before": 19.686208235810337,
+        "pool_reduction_rate": 0.3,
+        "subsidy_after": 4165404.8400000003,
+        "subsidy_saving": 242978.61,
+        "total_cost_saving": 242978.61,
+        "unit_contact_cost": 0.0
+      }
+    ]
+  },
+  "source_rows": {
+    "active": 5606759,
+    "coupons": 23129173,
+    "profile": 100000,
+    "transactions": 3152078
+  },
+  "subsidy_audit_pools": {
+    "auditable_pool_orders": 230150,
+    "auditable_pool_subsidy": 809928.7,
+    "no_coupon_link_orders": 215499,
+    "no_coupon_link_subsidy": 660501.09,
+    "overlap_orders": 4999,
+    "overlap_subsidy": 53580.53,
+    "subsidy_ge_pay": 203008.14,
+    "subsidy_ge_pay_orders": 19650
+  },
+  "zero_observed_return": {
+    "coupons_in_zero_return_batches_100plus": 7224801,
+    "face_value_exposure": 74215841.8,
+    "zero_return_batches": 1081736,
+    "zero_return_batches_100plus": 1939,
+    "zero_return_coupons": 8709814
+  }
+}
